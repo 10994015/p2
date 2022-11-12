@@ -295,6 +295,7 @@ main.close {
   text-align: center;
   -webkit-transition: .3s;
   transition: .3s;
+  background-color: #fff;
 }
 
 .education > .list > .item:hover {
