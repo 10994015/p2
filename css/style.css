@@ -84,12 +84,24 @@ header div.link > a {
   text-decoration: none;
   color: #111;
   font-weight: normal;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+header div.link > a:hover {
+  color: #10afa0;
+}
+
+body {
+  width: 100%;
 }
 
 main {
   padding-left: 260px;
+  width: 100%;
   -webkit-transition: .3s;
   transition: .3s;
+  overflow: hidden;
 }
 
 main.close {
@@ -150,6 +162,7 @@ main.close {
   font-size: 18px;
   padding: 0 20px;
   max-width: 500px;
+  overflow: hidden;
 }
 
 .about > .intro h2 {
@@ -159,6 +172,7 @@ main.close {
 
 .about > .intro p {
   margin: 15px 0;
+  letter-spacing: 1.6px;
 }
 
 .about > .intro span {
@@ -376,6 +390,7 @@ main.close {
   -webkit-transition: .3s;
   transition: .3s;
   font-weight: 600;
+  background: transparent;
 }
 
 .contact form div input[type="submit"]:hover {

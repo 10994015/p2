@@ -59,12 +59,21 @@ header{
             text-decoration: none;
             color:#111;
             font-weight: normal;
+            transition: .3s;
+            &:hover{
+                color:rgb(16,175,160);
+            }
         }
     }
 }
+body{
+    width:100%;
+}
 main{
     padding-left: 260px;
+    width:100%;
     transition: .3s;
+    overflow: hidden;
     &.close{
         padding-left: 0;
     }
@@ -79,7 +88,7 @@ main{
     z-index: -1;
     opacity: .65;
     transform: rotate(20deg);
-    text-transform:uppercase
+    text-transform:uppercase;
 }
 .about{
     width:100%;
@@ -110,13 +119,14 @@ main{
         margin-left: 50px;
         font-size: 18px;
         padding:0 20px ;
-        max-width: 500px;
+        max-width: 500px;overflow: hidden;
         h2{
             color:rgb(16,175,160);
             margin-bottom: 30px;
         }
         p{
             margin:15px 0;
+            letter-spacing: 1.6px;
         }
         span{
             display: block;
@@ -280,6 +290,7 @@ main{
                 cursor: pointer;
                 transition: .3s;
                 font-weight: 600;
+                background:transparent;
                 &:hover{
                     color:#fff;
                     background-color: #008477;
