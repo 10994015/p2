@@ -153,10 +153,27 @@ main{
             border-radius: 10px;
             overflow: hidden;
             >.percent{
-                width:80%;
                 height: 100%;
                 background-color: rgb(16,175,160);
                 border-radius: 10px;
+                &.python{
+                    width: 80%;
+                }
+                &.java{
+                    width: 60%;
+                }
+                &.english{
+                    width:100%;
+                }
+                &.html{
+                    width: 50%;
+                }
+                &.css{
+                    width:98%;
+                }
+                &.js{
+                    width:90%;
+                }
             }
         }
 
