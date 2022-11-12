@@ -263,6 +263,20 @@ main.close {
   height: 100%;
   background-color: #10afa0;
   border-radius: 10px;
+  -webkit-animation: run 1s linear;
+          animation: run 1s linear;
+}
+
+@-webkit-keyframes run {
+  0% {
+    width: 0;
+  }
+}
+
+@keyframes run {
+  0% {
+    width: 0;
+  }
 }
 
 .skills > .skill > .bar > .percent.python {
