@@ -65,6 +65,27 @@ header{
             }
         }
     }
+    div.url{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom:50px;
+        left:50%;
+        transform: translateX(-50%);
+        >a{
+            color:#2FB297;
+            text-decoration: none;
+            margin:0 10px;
+            transition: .3s;
+            &:hover > i{
+                transform: scale(1.2);
+            }
+            >i{
+                transition: .3s;
+                font-size: 30px;
+            }
+        }
+    }
 }
 body{
     width:100%;
